@@ -1,4 +1,4 @@
-package com.leverages.careerticketcafe.views
+package com.leverages.careerticketcafe.controllers
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
