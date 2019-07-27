@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+
+    <!--メインカラー-->
+    <color name="color_main">#3A9ADF</color>
+    <color name="color_main_light">#65ace6</color>
+    <color name="color_main_lighter">#e8f5ff</color>
+    <color name="color_main_lightest">#e8f5ff</color>
+    <color name="color_main_dark">#1a6aa2</color>
+
+    <!--アクセント-->
+    <color name="color_accent_dark">#a03a3a</color>
+    <color name="color_accent">#FF5A60</color>
+
+    <!--CTAボタン-->
+    <color name="color_cta">#c3791d</color>
+    <color name="color_cta_light">#ff9d24</color>
+
+    <!--グレー系-->
+    <color name="color_gray_3">#333</color>
+    <color name="color_gray_6">#666</color>
+    <color name="color_gray_a1">#A1A1A1</color>
+    <color name="color_gray_c">#CCC</color>
+    <color name="color_gray_f2">#F2F2F3</color>
+    <color name="color_gray_f9">#F9F9F9</color>
+
 </resources>
