@@ -23,6 +23,7 @@ class SeminarListAdapter(private val list: List<Seminar>)
 
 }
 
+// xmlで作ったviewパーツたちにSeminar fragmentからとったデータを入れる
 class SeminarViewHolder(inflater: LayoutInflater, parent: ViewGroup) :
     RecyclerView.ViewHolder(inflater.inflate(R.layout.seminar_list_item, parent, false)) {
     private var mTopCompanyNameView: TextView? = null
