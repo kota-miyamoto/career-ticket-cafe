@@ -1,4 +1,4 @@
-package com.leverages.careerticketcafe.controllers
+package com.leverages.careerticketcafe.controllers.Seminar
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

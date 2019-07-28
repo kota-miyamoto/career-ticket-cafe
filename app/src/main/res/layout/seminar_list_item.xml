@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:cardview="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        cardview:cardCornerRadius="5dp"
+        android:id="@+id/seminarCardView">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+            <TextView
+                    android:id="@+id/seminarTopCompanyNameTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="top"
+                    android:text="レバレジーズ株式会社"
+                    android:textSize="12dp"
+                    android:textColor="#2d2d2d"/>
+            <TextView
+                    android:id="@+id/seminarTitleTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="top"
+                    android:text="早稲田カフェオープンしました！早稲田カフェオーブンしました！"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="#2d2d2d"/>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                            android:id="@+id/seminarImageView"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="10dp"
+                            android:scaleType="centerCrop"
+                            android:background="#2d2d2d"/>
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+                            <TextView
+                                    android:id="@+id/seminarDateTextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="2019/07/01(金) 18:00 ~ 20:00"
+                                    android:textSize="13dp"
+                                    android:textColor="#2d2d2d"/>
+                            <TextView
+                                    android:id="@+id/seminarCapacityTextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:text="2人 / 定員5人"
+                                    android:textSize="13dp"
+                                    android:textColor="#2d2d2d"/>
+                            <TextView
+                                    android:id="@+id/seminarBottomCompanyNameTextView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:text="レバレジーズ株式会社"
+                                    android:textSize="13dp"
+                                    android:textColor="#2d2d2d"/>
+                    </LinearLayout>
+            </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
