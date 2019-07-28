@@ -75,7 +75,7 @@ class SeminarFragment : Fragment() {
 
 
 // FragmentManagerは1つのActivity内にあるすべてのFragmentのライフサイクルを処理するので、
-// 1つづつfragmentをコミットする
+// 1つだけfragmentをコミットする
 abstract class SingleFragmentActivity : AppCompatActivity() {
 
     private val layoutResId: Int
