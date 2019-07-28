@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".controllers.SeminarListActivity">
+    tools:context=".controllers.Seminar.SeminarListActivity">
 
     <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/seminarRecyclerView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#ededed"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
