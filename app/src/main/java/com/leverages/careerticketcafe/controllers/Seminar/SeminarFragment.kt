@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.leverages.careerticketcafe.R
-import kotlinx.android.synthetic.main.fragment_main.*
+import kotlinx.android.synthetic.main.activity_seminar_list.*
 
 data class Seminar(val topCompanyName: String, val title: String, val image: String, val date: String, val capacity: String, val bottomCompanyName: String)
 
@@ -56,12 +56,12 @@ class SeminarFragment : Fragment() {
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? =
-        inflater.inflate(R.layout.fragment_main, container, false)
+        inflater.inflate(R.layout.activity_seminar_list, container, false)
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        list_recycler_view.apply {
+        seminarRecyclerView.apply {
             layoutManager = LinearLayoutManager(activity)
             adapter = SeminarListAdapter(seminarList)
         }
